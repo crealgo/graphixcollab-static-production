@@ -39,7 +39,7 @@
 			display: inline;
 		}
 	}
-`,s=e=>(0,r.jsxs)(o,{className:"FormHeader-root",children:[(0,r.jsx)(n.X,{level:2,className:"FormHeader-title",children:e.title}),(0,r.jsx)("p",{className:"FormHeader-instructions",children:(0,r.jsx)(l.v,{color:"magenta",children:e.instructions})})]})},9029:function(e,i,t){t.d(i,{U:function(){return W}});var r=t(5893),a=t(9784),n=t(7294),l=t(6829),o=t(7406),s=t(7151);let c="1.25rem",d=l.Z.label`
+`,s=e=>(0,r.jsxs)(o,{className:"FormHeader-root",children:[(0,r.jsx)(n.X,{level:2,className:"FormHeader-title",children:e.title}),(0,r.jsx)("p",{className:"FormHeader-instructions",children:(0,r.jsx)(l.v,{color:"magenta",children:e.instructions})})]})},9029:function(e,i,t){t.d(i,{U:function(){return O}});var r=t(5893),a=t(9784),n=t(7294),l=t(6829),o=t(7406),s=t(7151);let c="1.25rem",d=l.Z.label`
 	display: grid;
 	grid-template-columns: ${c} 1fr;
 	gap: var(--spacing-1-5);
@@ -188,13 +188,13 @@
 		transform: translateY(0);
 		opacity: 1;
 	}
-`;var w=t(1177);let T=(0,l.Z)("input",(0,w._e)("isInvalid","isValid","isTouched"))`
+`;var T=t(1177);let w=(0,l.Z)("input",(0,T._e)("isInvalid","isValid","isTouched"))`
 	position: absolute;
 	inset: 0 0 0 0;
 	opacity: 0;
-`,S=(0,n.forwardRef)((e,i)=>{let{displayText:t="\uD83C\uDF05 Upload a file",inputSize:a="medium",className:l,...o}=e,[s,c]=(0,n.useState)(null),[d,p]=(0,n.useState)(!1),u=s?(0,r.jsx)(k,{listTitle:"Chosen Files:",children:[...s].map((e,i)=>(0,r.jsxs)(j,{children:[(0,r.jsx)(f.Z,{fontSize:"small",sx:{color:"var(--color-brand-magenta-main)"}}),(0,r.jsx)(v.x,{children:e.name})]},i))}):(0,r.jsxs)(r.Fragment,{children:[t,(0,r.jsxs)("small",{className:"acce",children:["Supported file types:"," ",o.accept?.replaceAll(",",", ")]})]});return(0,r.jsxs)(F,{className:(0,x.Z)("FileInput-root",l,{"has-files":!!s,"is-drag-active":d}),inputSize:a,role:"combobox",tabIndex:0,children:[(0,r.jsx)(y,{children:u}),(0,r.jsx)(T,{...o,ref:i,className:"FileInput-input",type:"file",onChange:e=>{e.currentTarget.files?.length&&c(e.currentTarget.files),o.onChange?.(e)},onDragStart:e=>{p(!0),o.onDragStart?.(e)},onDragEnter:e=>{p(!0),o.onDragEnter?.(e)},onDragLeave:e=>{p(!1),o.onDragLeave?.(e)},onDragEnd:e=>{e.preventDefault(),p(!1),o.onDragEnd?.(e)},onDrop:e=>{p(!1),c(e.dataTransfer.files),o.onDrop?.(e)}})]})}),N=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,className:l,...o}=e,s=(0,a.o)(o.name??"input-name");return(0,r.jsx)(h.N,{label:t,labelFor:s,helperText:n,helperTextId:`${s}-helper-text`,className:(0,x.Z)("FileInputField-root",l),isInvalid:o.isInvalid,isValid:o.isValid,isTouched:o.isTouched,children:(0,r.jsx)(S,{...o,ref:i,multiple:!0,type:"file",id:s,name:s})})});var Z=t(2446),R=t(290);let C="1.25rem",z=l.Z.label`
+`,S=(0,n.forwardRef)((e,i)=>{let{displayText:t="\uD83C\uDF05 Upload a file",inputSize:a="medium",className:l,...o}=e,[s,c]=(0,n.useState)(null),[d,p]=(0,n.useState)(!1),u=s?(0,r.jsx)(k,{listTitle:"Chosen Files:",children:[...s].map((e,i)=>(0,r.jsxs)(j,{children:[(0,r.jsx)(f.Z,{fontSize:"small",sx:{color:"var(--color-brand-magenta-main)"}}),(0,r.jsx)(v.x,{children:e.name})]},i))}):(0,r.jsxs)(r.Fragment,{children:[t,(0,r.jsxs)("small",{className:"acce",children:["Supported file types:"," ",o.accept?.replaceAll(",",", ")]})]});return(0,r.jsxs)(F,{className:(0,x.Z)("FileInput-root",l,{"has-files":!!s,"is-drag-active":d}),inputSize:a,role:"combobox",tabIndex:0,children:[(0,r.jsx)(y,{children:u}),(0,r.jsx)(w,{...o,ref:i,className:"FileInput-input",type:"file",onChange:e=>{e.currentTarget.files?.length&&c(e.currentTarget.files),o.onChange?.(e)},onDragStart:e=>{p(!0),o.onDragStart?.(e)},onDragEnter:e=>{p(!0),o.onDragEnter?.(e)},onDragLeave:e=>{p(!1),o.onDragLeave?.(e)},onDragEnd:e=>{e.preventDefault(),p(!1),o.onDragEnd?.(e)},onDrop:e=>{p(!1),c(e.dataTransfer.files),o.onDrop?.(e)}})]})}),N=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,className:l,...o}=e,s=(0,a.o)(o.name??"input-name");return(0,r.jsx)(h.N,{label:t,labelFor:s,helperText:n,helperTextId:`${s}-helper-text`,className:(0,x.Z)("FileInputField-root",l),isInvalid:o.isInvalid,isValid:o.isValid,isTouched:o.isTouched,children:(0,r.jsx)(S,{...o,ref:i,multiple:!0,type:"file",id:s,name:s})})});var Z=t(2446),C=t(290);let R="1.25rem",z=l.Z.label`
 	display: grid;
-	grid-template-columns: ${C} 1fr;
+	grid-template-columns: ${R} 1fr;
 	gap: var(--spacing-1-5);
 	place-items: start;
 	place-content: start;
@@ -206,7 +206,7 @@
 
 	.RadioInput-text {
 		display: grid;
-		line-height: ${C};
+		line-height: ${R};
 		grid-template-columns: 1fr;
 
 		.RadioInput-meta {
@@ -223,8 +223,8 @@
 		display: flex;
 		border-radius: 50%;
 		overflow: hidden;
-		width: ${C};
-		height: ${C};
+		width: ${R};
+		height: ${R};
 
 		.RadioInput-icon {
 			width: inherit;
@@ -250,7 +250,7 @@
 		color: var(--color-brand-magenta-main);
 		display: flex;
 	}
-`,D=(0,n.forwardRef)((e,i)=>(0,r.jsxs)(z,{htmlFor:e.id,children:[(0,r.jsx)($,{ref:i,type:"radio",...e}),(0,r.jsxs)("div",{className:"RadioInput-indicator",children:[(0,r.jsx)(R.Z,{className:"RadioInput-icon is-checked"}),(0,r.jsx)(Z.Z,{className:"RadioInput-icon is-unchecked"})]}),(0,r.jsxs)("span",{className:"RadioInput-text",children:[(0,r.jsx)("span",{children:e.label}),(0,r.jsx)("small",{className:"RadioInput-meta",children:e.meta})]})]})),V=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,options:l,defaultValue:o,...s}=e,c=(0,a.o)(s.name??"input-name");return(0,r.jsx)(h.N,{isFieldset:!0,label:t,labelFor:c,helperText:n,helperTextId:`${c}-helper-text`,isRequired:s.required,isInvalid:s.isInvalid,isValid:s.isValid,isTouched:s.isTouched,children:(0,r.jsx)(m,{children:l?.map((e,t)=>r.jsx(D,{ref:i,type:"radio",id:e.value,name:c,defaultChecked:e.value===o,...s,...e},t))})})});var q=t(917),E=t(8918);let A=(0,l.Z)("div")(e=>{let{inputSize:i}=e;return(0,q.iv)`
+`,D=(0,n.forwardRef)((e,i)=>(0,r.jsxs)(z,{htmlFor:e.id,children:[(0,r.jsx)($,{ref:i,type:"radio",...e}),(0,r.jsxs)("div",{className:"RadioInput-indicator",children:[(0,r.jsx)(C.Z,{className:"RadioInput-icon is-checked"}),(0,r.jsx)(Z.Z,{className:"RadioInput-icon is-unchecked"})]}),(0,r.jsxs)("span",{className:"RadioInput-text",children:[(0,r.jsx)("span",{children:e.label}),(0,r.jsx)("small",{className:"RadioInput-meta",children:e.meta})]})]})),V=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,options:l,defaultValue:o,...s}=e,c=(0,a.o)(s.name??"input-name");return(0,r.jsx)(h.N,{isFieldset:!0,label:t,labelFor:c,helperText:n,helperTextId:`${c}-helper-text`,isRequired:s.required,isInvalid:s.isInvalid,isValid:s.isValid,isTouched:s.isTouched,children:(0,r.jsx)(m,{children:l?.map((e,t)=>r.jsx(D,{...s,...e,ref:i,type:"radio",id:e.value,defaultChecked:e.value===o,name:c},t))})})});var q=t(917),_=t(8918);let E=(0,l.Z)("div")(e=>{let{inputSize:i}=e;return(0,q.iv)`
 		display: inline-block;
 		position: relative;
 		width: 100%;
@@ -265,7 +265,7 @@
 			transform: translateY(-50%);
 			opacity: 0.5;
 		}
-	`}),H=(0,l.Z)("select",{shouldForwardProp:e=>!["inputSize","isTouched","isInvalid","isValid"].includes(e)})(e=>(0,q.iv)`
+	`}),P=(0,l.Z)("select",{shouldForwardProp:e=>!["inputSize","isTouched","isInvalid","isValid"].includes(e)})(e=>(0,q.iv)`
 		${(0,I.I)({inputSize:e.inputSize})};
 		width: 100%;
 		display: block;
@@ -273,12 +273,12 @@
 		padding-inline: var(--select-spacing-padding-inline-${e.inputSize});
 		appearance: none;
 		cursor: pointer;
-	`),L=(0,n.forwardRef)((e,i)=>{let{options:t,inputSize:a="medium",className:n,...l}=e;return(0,r.jsxs)(A,{className:(0,x.Z)("Select-root",n),inputSize:a,children:[(0,r.jsx)(H,{...l,ref:i,inputSize:a,children:t?.map((e,i)=>{let{label:t,value:a}=e;return r.jsx("option",{value:a,children:t},i)})}),(0,r.jsx)(E.Z,{})]})}),_=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,...l}=e,o=(0,a.o)(l.name??"input-name");return(0,r.jsx)(h.N,{label:t,labelFor:o,helperText:n,helperTextId:`${o}-helper-text`,isRequired:l.required,isInvalid:l.isInvalid,isValid:l.isValid,isTouched:l.isTouched,children:(0,r.jsx)(L,{...l,ref:i,id:o,name:o})})});var P=t(2134),Y=t(4336),U=t(9736);let X=l.Z.div`
+	`),A=(0,n.forwardRef)((e,i)=>{let{options:t,inputSize:a="medium",className:n,...l}=e;return(0,r.jsxs)(E,{className:(0,x.Z)("Select-root",n),inputSize:a,children:[(0,r.jsx)(P,{...l,ref:i,inputSize:a,children:t?.map((e,i)=>{let{label:t,value:a}=e;return r.jsx("option",{value:a,children:t},i)})}),(0,r.jsx)(_.Z,{})]})}),L=(0,n.forwardRef)((e,i)=>{let{label:t,helperText:n,...l}=e,o=(0,a.o)(l.name??"input-name");return(0,r.jsx)(h.N,{label:t,labelFor:o,helperText:n,helperTextId:`${o}-helper-text`,isRequired:l.required,isInvalid:l.isInvalid,isValid:l.isValid,isTouched:l.isTouched,children:(0,r.jsx)(A,{...l,ref:i,id:o,name:o})})});var H=t(2134),Y=t(4336),U=t(9736);let X=l.Z.div`
 	&.has-top-gutter {
 		margin-block-start: var(--spacing-6);
 	}
-`,G={title:e=>(0,r.jsxs)(X,{className:(0,x.Z)("FormSectionTitle-root",{"has-top-gutter":e.hasTopGutter}),children:[(0,r.jsx)(U.X,{level:4,children:e.title}),(0,r.jsx)("hr",{})]}),checkbox:g,radio:V,select:_,textarea:P.N},M={text:Y.n,number:Y.n,date:Y.n,email:Y.n,file:N},O=(e,i)=>"input"===e?M[i??"text"]:e in G?G[e]:M.text,W=e=>{let{items:i,formState:t}=e;return(0,r.jsx)(r.Fragment,{children:i.map((e,i)=>{let{itemType:a,inputType:n,...l}=e,o=O(a,n);return(0,r.jsx)(o,{type:n,isInvalid:!!t.errors[e.name],helperText:t.errors[e.name]??e.helperText,...l},i)})})}},7844:function(e,i,t){t.d(i,{c:function(){return a}});var r=t(7294);let a=()=>{let e,i;let[t,a]=(0,r.useState)(!1),[n,l]=(0,r.useState)(!1),[o,s]=(0,r.useState)(!1),[c,d]=(0,r.useState)({}),[p,u]=(0,r.useState)(null),h=()=>{a(!1),l(!1),s(!1),d({}),u(null)},m=async()=>{let t=i.querySelectorAll('input[type="file"]');if(0!==t.length){for await(let i of[...t].map(e=>e.name))if(e.has(i)){let t=0;for await(let r of e.getAll(i))e.append(`${i}[${t}]`,r),t++;e.delete(i)}}},g=async()=>{await m(),console.log(Object.fromEntries(e.entries()));let t=await fetch(i.action,{method:i.method,body:e});u(t),s(t.ok),t.ok||d(await t.json()),a(!1),l(!0)};return{isSubmitting:t,isSubmitted:n,isSuccessful:o,response:p,errors:c,handleReset:h,handleSubmit:t=>{t.preventDefault(),h(),e=new FormData(i=t.currentTarget),a(!0),g()}}}},230:function(e,i,t){t.d(i,{C:function(){return r}});let r=e=>`https://api.crealgo.com/v1/graphixcollab/${e}`},4592:function(e,i,t){t.d(i,{z:function(){return s}});var r=t(5893),a=t(6829),n=t(18),l=t(633);let o=(0,a.Z)(n.Z)`
+`,B={title:e=>(0,r.jsxs)(X,{className:(0,x.Z)("FormSectionTitle-root",{"has-top-gutter":e.hasTopGutter}),children:[(0,r.jsx)(U.X,{level:4,children:e.title}),(0,r.jsx)("hr",{})]}),checkbox:g,radio:V,select:L,textarea:H.N},G={text:Y.n,number:Y.n,date:Y.n,email:Y.n,file:N},M=(e,i)=>"input"===e?G[i??"text"]:e in B?B[e]:G.text,O=e=>{let{items:i,formState:t}=e;return(0,r.jsx)(r.Fragment,{children:i.map((e,i)=>{let{itemType:a,inputType:n,...l}=e,o=M(a,n);return(0,r.jsx)(o,{...l,type:n,isInvalid:!!t.errors[e.name],helperText:t.errors[e.name]??e.helperText},i)})})}},7844:function(e,i,t){t.d(i,{c:function(){return a}});var r=t(7294);let a=()=>{let[e,i]=(0,r.useState)(!1),[t,a]=(0,r.useState)(!1),[n,l]=(0,r.useState)(!1),[o,s]=(0,r.useState)({}),[c,d]=(0,r.useState)(null),p=()=>{i(!1),a(!1),l(!1),s({}),d(null)},u=async e=>{e.preventDefault(),p(),i(!0);let t=e.currentTarget,r=t.querySelectorAll('input[type="file"]'),n=new FormData(e.currentTarget);if(r.length){for await(let e of[...r].map(e=>e.name))if(n.has(e)){let i=0;for await(let t of n.getAll(e))n.append(`${e}[${i}]`,t),i++;n.delete(e)}}let o=await fetch(t.action,{method:t.method,body:n});d(o),l(o.ok),o.ok||s(await o.json()),i(!1),a(!0)};return{isSubmitting:e,isSubmitted:t,isSuccessful:n,response:c,errors:o,handleReset:p,handleSubmit:u}}},230:function(e,i,t){t.d(i,{C:function(){return a}});var r=t(4155);let a=e=>(r.env.NEXT_PUBLIC_APP_ID,`https://graphixcollab-api-zmivi.ondigitalocean.app/v1/${e}`)},4592:function(e,i,t){t.d(i,{z:function(){return c}});var r=t(5893),a=t(6829),n=t(3959),l=t(18),o=t(633);let s=(0,a.Z)(l.Z)`
 	font-family: var(--font-family) !important;
 	margin-block-start: var(--spacing-2);
 	grid-column: span 2;
-`,s=e=>{let i="error",t="Request Failed",a="There was an error sending your message. Please try again.";return e&&(i="success",t="Message Sent",a="Your message has been sent. We will get back to you as soon as possible."),(0,r.jsx)("div",{className:"FormSection-alert",children:(0,r.jsxs)(o,{severity:i,children:[(0,r.jsx)(l.Z,{children:t}),a]})})}}}]);
+`,c=e=>{let i="error",t="Request Failed",a=(0,r.jsxs)(r.Fragment,{children:["There was an error sending your message. Please try again. Or contact directly at"," ",(0,r.jsx)(n.r,{href:"mailto:graphixcollab@gmail.com?subject=Inquiry",children:"graphixcollab@gmail.com"})]});return e&&(i="success",t="Message Sent",a=(0,r.jsx)(r.Fragment,{children:"Your message has been sent. We will get back to you as soon as possible."})),(0,r.jsx)("div",{className:"FormSection-alert",children:(0,r.jsxs)(s,{severity:i,children:[(0,r.jsx)(o.Z,{children:t}),a]})})}}}]);
